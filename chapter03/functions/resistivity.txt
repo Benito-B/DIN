@@ -1,0 +1,31 @@
+>>> from resistivity import resistivity
+
+>>> resistivity(1,2,3)
+0.67
+
+>>> resistivity(7,15,20)
+5.25
+
+>>> resistivity(-1,6,-20)
+-1
+
+>>> resistivity(0,1,5)
+-1
+
+>>> resistivity(1,6,-2)
+-1
+
+>>> resistivity(1,1,0)
+-1
+
+>>> resistivity(5,7,1.5)
+23.333333333333336
+
+>>> resistivity(-1,-5,-2)
+-1
+
+>>> resistivity(0,0,0)
+-1
+
+>>> resistivity(1.6,2.1,0.1)
+33.6

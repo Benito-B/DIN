@@ -1,0 +1,14 @@
+Examples for ``eq.py``
+======================
+
+Using ``calculate``
+-------------------
+
+First you need to import the function from the ``eq.py`` module:
+
+    >>> from eq import calculate
+
+then you can use it, just like this:
+
+    >>> calculate(2,3,1)
+    Los resultados son -0.5 y -1.0
