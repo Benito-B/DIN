@@ -2,6 +2,40 @@ from tkinter import *
 from tkinter import ttk
 
 
+def enforce_aspect(width: int) -> None:
+    global window
+    aspect_ratio = 0.5164835164835165
+    new_height = int(width * aspect_ratio)
+    print('{}x{}'.format(width, new_height))
+    window.geometry('{}x{}'.format(width, new_height))
+
+
+def enable_dragging(*args) -> None:
+    global dragging
+    global dragged_color
+    dragged_color = args[0].widget['background']
+    dragging = True
+
+
+def finish_dragging(*args) -> None:
+    global dragging
+    global dragged_color
+    global dragging_over
+    if dragging_over is not None:
+        dragging_over['background'] = dragged_color
+        dragging = False
+        dragged_color = None
+        dragging_over = None
+
+
+def do_drag(e: Event) -> None:
+    global dragging
+    global dragging_over
+    if dragging:
+        dragging_over = window.winfo_containing(e.x_root, e.y_root)
+        print(window.winfo_containing(e.x_root, e.y_root))
+
+
 def chcolor(cb: ttk.Combobox, v_checks: list, h_checks: list, labs: list, color: StringVar) -> None:
     """
     Changes the color of the selected marks to the one in the combobox
@@ -40,6 +74,9 @@ frame = ttk.Frame(window)
 frame.grid(column=0, row=0, sticky="NSWE")
 window.columnconfigure(0, weight=1)
 window.rowconfigure(0, weight=1)
+dragging = False
+dragged_color = None
+dragging_over = None
 # Dictionary for storing the label references
 labels = list()
 # Variables for the checks
@@ -49,11 +86,15 @@ h_check_vars = list()
 color_var = StringVar()
 # Horizontal checkbuttons
 for i in range(4):
-    h_check_vars.append(BooleanVar())
+    bv = BooleanVar()
+    bv.trace('w', lambda a, b, d: chcolor(combo, v_check_vars, h_check_vars, labels, color_var))
+    h_check_vars.append(bv)
     ttk.Checkbutton(frame, variable=h_check_vars[i]).grid(row=0, column=i + 1)
 # Vertical checkbuttons
 for i in range(4):
-    v_check_vars.append(BooleanVar())
+    bv = BooleanVar()
+    bv.trace('w', lambda a, b, d: chcolor(combo, v_check_vars, h_check_vars, labels, color_var))
+    v_check_vars.append(bv)
     ttk.Checkbutton(frame, variable=v_check_vars[i]).grid(row=i + 1, column=0)
 # Adding the labels to the grid
 for r in range(4):
@@ -61,6 +102,9 @@ for r in range(4):
     for c in range(4):
         lab = ttk.Label(frame, text=r + c, relief='groove')
         lab.grid(row=r + 1, column=c + 1, sticky="NSWE")
+        lab.bind('<ButtonPress-1>', enable_dragging)
+        lab.bind('<ButtonRelease-1>', finish_dragging)
+        lab.bind('<B1-Motion>', lambda e: do_drag(e))
         labels[r].append(lab)
 # Clear button
 clear_bt = ttk.Button(frame, width=3, text='CLR', command=lambda: clearcolor(labels))
@@ -90,4 +134,5 @@ frame.grid_rowconfigure(5, minsize=20, weight=0)
 # Refresh screen and launch it
 window.update()
 window.minsize(window.winfo_width(), window.winfo_height())
+window.bind('<Configure>', lambda e: enforce_aspect(window.winfo_width()))
 window.mainloop()
