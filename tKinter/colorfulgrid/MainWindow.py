@@ -22,7 +22,10 @@ def finish_dragging(*args) -> None:
     global dragged_color
     global dragging_over
     if dragging_over is not None:
-        dragging_over['background'] = dragged_color
+        try:
+            dragging_over['background'] = dragged_color
+        except:
+            pass
         dragging = False
         dragged_color = None
         dragging_over = None
@@ -66,14 +69,14 @@ def clearcolor(labs: list) -> None:
 
 # FRAMEWORK
 window = Tk()
-# window.rowconfigure(0, weight=1, minsize=20)
-# window.columnconfigure(0, weight=1)
-# window.rowconfigure(1, weight=1)
+window.rowconfigure(0, weight=1, minsize=20)
+window.columnconfigure(0, weight=1)
 # Creating the frame for the grid
 frame = ttk.Frame(window)
 frame.grid(column=0, row=0, sticky="NSWE")
 window.columnconfigure(0, weight=1)
 window.rowconfigure(0, weight=1)
+# Variables for the drag simulation
 dragging = False
 dragged_color = None
 dragging_over = None
@@ -134,5 +137,5 @@ frame.grid_rowconfigure(5, minsize=20, weight=0)
 # Refresh screen and launch it
 window.update()
 window.minsize(window.winfo_width(), window.winfo_height())
-window.bind('<Configure>', lambda e: enforce_aspect(window.winfo_width()))
+# window.bind('<Configure>', lambda e: enforce_aspect(window.winfo_width()))  # not working
 window.mainloop()
