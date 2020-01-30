@@ -4,8 +4,8 @@ from tkinter import ttk
 
 class ConfigWindow:
 
-    def __init__(self):
-        self.window = Tk()
+    def __init__(self, t: Toplevel):
+        self.window = t
         self.window.title('Config options')
         root = ttk.Label(self.window)
         root.pack(padx=20, pady=20)
@@ -74,12 +74,3 @@ class ConfigWindow:
         Spinbox(editor_frame, from_=1.0, to=10.0, width=5).grid(row=1, column=1, sticky="W")
         ttk.Checkbutton(editor_frame, text="Use spaces isntead of tabulations").grid(row=2, column=0, sticky="W",
                                                                                      padx=10)
-
-    def start(self) -> None:
-        self.window.mainloop()
-
-
-if __name__ == '__main__':
-    # Creating the main window with the frames
-    window = ConfigWindow()
-    window.start()

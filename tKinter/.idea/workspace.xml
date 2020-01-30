@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53e6ad6e-c050-49ca-845a-788b18134e44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/transformations/Speedometer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tKinter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tKinter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DialogTesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DialogTesting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geditExercise/GeditConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/geditExercise/GeditConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geditExercise/MainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/geditExercise/MainWindow.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Projects/amazon-watcher" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -40,11 +44,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/transformations" />
       <recent name="$PROJECT_DIR$/geditExercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MainWindow">
-    <configuration name="DialogTesting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Speedometer">
+    <configuration name="BasicExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tKinter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,11 +57,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/canvas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DialogTesting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/canvas/BasicExample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -65,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GeditConfig" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="F2barreiro_tieles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tKinter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geditExercise/GeditConfig.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test06/F2barreiro_tieles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MainWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MainWindow (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tKinter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geditExercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/transformations" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geditExercise/MainWindow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transformations/MainWindow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ProgressBar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Speedometer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tKinter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/canvas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProgressBar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transformations/Speedometer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ThemeTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="telesketch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tKinter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/canvas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThemeTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/canvas/telesketch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MainWindow" />
-        <item itemvalue="Python.GeditConfig" />
-        <item itemvalue="Python.ThemeTest" />
-        <item itemvalue="Python.DialogTesting" />
-        <item itemvalue="Python.ProgressBar" />
+        <item itemvalue="Python.Speedometer" />
+        <item itemvalue="Python.MainWindow (1)" />
+        <item itemvalue="Python.telesketch" />
+        <item itemvalue="Python.BasicExample" />
+        <item itemvalue="Python.F2barreiro_tieles" />
       </list>
     </recent_temporary>
   </component>
@@ -198,22 +203,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1832" height="257" key="GridCell.Tab.0.bottom" timestamp="1578488054215">
+    <state x="668" y="344" width="646" height="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579165180462">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1832" height="257" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1578488054215" />
-    <state width="1832" height="257" key="GridCell.Tab.0.center" timestamp="1578488054214">
+    <state x="668" y="344" width="646" height="388" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056@65.24.1855.1056" timestamp="1579165180462" />
+    <state width="1832" height="257" key="GridCell.Tab.0.bottom" timestamp="1580382781876">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1832" height="257" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1578488054214" />
-    <state width="1832" height="257" key="GridCell.Tab.0.left" timestamp="1578488054213">
+    <state width="1832" height="257" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1580382781876" />
+    <state width="1832" height="257" key="GridCell.Tab.0.center" timestamp="1580382781874">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1832" height="257" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1578488054213" />
-    <state width="1832" height="257" key="GridCell.Tab.0.right" timestamp="1578488054215">
+    <state width="1832" height="257" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1580382781874" />
+    <state width="1832" height="257" key="GridCell.Tab.0.left" timestamp="1580382781874">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1832" height="257" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1578488054215" />
+    <state width="1832" height="257" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1580382781874" />
+    <state width="1832" height="257" key="GridCell.Tab.0.right" timestamp="1580382781875">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="257" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1580382781875" />
+    <state x="486" y="174" key="SettingsEditor" timestamp="1579770842834">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="486" y="174" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1579770842834" />
     <state x="639" y="142" width="707" height="792" key="find.popup" timestamp="1578484098414">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
