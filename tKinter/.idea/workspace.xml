@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53e6ad6e-c050-49ca-845a-788b18134e44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/transformations/Speedometer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tKinter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tKinter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/F2barreiro_tieles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07/F3barreiro_tieles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformations/Speedodom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformations/SpeedomTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geditExercise/GeditConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/geditExercise/GeditConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geditExercise/MainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/geditExercise/MainWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformations/Speedometer.py" beforeDir="false" afterPath="$PROJECT_DIR$/transformations/Speedometer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +32,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Projects/amazon-watcher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/transformations" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -47,29 +49,11 @@
       <recent name="$PROJECT_DIR$/transformations" />
       <recent name="$PROJECT_DIR$/geditExercise" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/transformations" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Speedometer">
-    <configuration name="BasicExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tKinter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/canvas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/canvas/BasicExample.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.F2barreiro_tieles">
     <configuration name="F2barreiro_tieles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tKinter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,11 +62,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test07" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test06/F2barreiro_tieles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test07/F2barreiro_tieles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MainWindow (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SpeedomTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tKinter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transformations/MainWindow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transformations/SpeedomTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="telesketch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Velocimetro2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tKinter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +125,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/canvas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/transformations/Velo5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/canvas/telesketch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transformations/Velo5/Velocimetro2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Velocimetro2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tKinter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/transformations/Velo3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transformations/Velo3/Velocimetro2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Speedometer" />
-        <item itemvalue="Python.MainWindow (1)" />
-        <item itemvalue="Python.telesketch" />
-        <item itemvalue="Python.BasicExample" />
         <item itemvalue="Python.F2barreiro_tieles" />
+        <item itemvalue="Python.Velocimetro2 (1)" />
+        <item itemvalue="Python.Velocimetro2" />
+        <item itemvalue="Python.SpeedomTest" />
+        <item itemvalue="Python.Speedometer" />
       </list>
     </recent_temporary>
   </component>
@@ -207,22 +212,38 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="668" y="344" width="646" height="388" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056@65.24.1855.1056" timestamp="1579165180462" />
-    <state width="1832" height="257" key="GridCell.Tab.0.bottom" timestamp="1580382781876">
+    <state width="1832" height="257" key="GridCell.Tab.0.bottom" timestamp="1581938995192">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1832" height="257" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1580382781876" />
-    <state width="1832" height="257" key="GridCell.Tab.0.center" timestamp="1580382781874">
+    <state width="1832" height="257" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1581938995192" />
+    <state width="1832" height="257" key="GridCell.Tab.0.center" timestamp="1581938995189">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1832" height="257" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1580382781874" />
-    <state width="1832" height="257" key="GridCell.Tab.0.left" timestamp="1580382781874">
+    <state width="1832" height="257" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1581938995189" />
+    <state width="1832" height="257" key="GridCell.Tab.0.left" timestamp="1581938995187">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1832" height="257" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1580382781874" />
-    <state width="1832" height="257" key="GridCell.Tab.0.right" timestamp="1580382781875">
+    <state width="1832" height="257" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1581938995187" />
+    <state width="1832" height="257" key="GridCell.Tab.0.right" timestamp="1581938995190">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state width="1832" height="257" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1580382781875" />
+    <state width="1832" height="257" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1581938995190" />
+    <state width="1832" height="365" key="GridCell.Tab.1.bottom" timestamp="1580806345096">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="365" key="GridCell.Tab.1.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1580806345096" />
+    <state width="1832" height="365" key="GridCell.Tab.1.center" timestamp="1580806345095">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="365" key="GridCell.Tab.1.center/65.24.1855.1056@65.24.1855.1056" timestamp="1580806345095" />
+    <state width="1832" height="365" key="GridCell.Tab.1.left" timestamp="1580806345095">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="365" key="GridCell.Tab.1.left/65.24.1855.1056@65.24.1855.1056" timestamp="1580806345095" />
+    <state width="1832" height="365" key="GridCell.Tab.1.right" timestamp="1580806345095">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="365" key="GridCell.Tab.1.right/65.24.1855.1056@65.24.1855.1056" timestamp="1580806345095" />
     <state x="486" y="174" key="SettingsEditor" timestamp="1579770842834">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
@@ -231,9 +252,9 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="639" y="142" width="707" height="792" key="find.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1578484098414" />
-    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1578484125969">
+    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1580805925602">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1578484125969" />
+    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1580805925602" />
   </component>
 </project>
